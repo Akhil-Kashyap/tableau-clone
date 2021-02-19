@@ -4,8 +4,8 @@ import { SET_CURRENT_USER } from "./types";
 
 // Register User
 export const registerUser = (userData, history) => (dispatch) => {
-  console.log(userData);
-  console.log(JSON.stringify(userData));
+  // console.log(userData);
+  // console.log(JSON.stringify(userData));
 
   fetch("https://tableau-clone.herokuapp.com/register", {
     method: "POST",
